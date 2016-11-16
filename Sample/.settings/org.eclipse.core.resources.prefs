@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebContent/applicant_home.jsp=UTF-8
+encoding//WebContent/applicant_login.jsp=UTF-8
+encoding//WebContent/applicant_register.jsp=UTF-8
+encoding//WebContent/applicant_register_process.jsp=UTF-8
+encoding//WebContent/applicant_service.jsp=UTF-8
+encoding//WebContent/applicant_view_service.jsp=UTF-8
+encoding//WebContent/sponsor_register.jsp=UTF-8
+encoding//WebContent/voluenteer_register.jsp=UTF-8
+encoding//WebContent/voluenteer_register_process.jsp=UTF-8
+encoding//WebContent/volunteer_home.jsp=UTF-8
+encoding//WebContent/volunteer_login.jsp=UTF-8
+encoding//WebContent/volunteer_view_allocation.jsp=UTF-8
