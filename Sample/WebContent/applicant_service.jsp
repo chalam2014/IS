@@ -60,54 +60,6 @@
         <div id="templatemo_content_wrapper">
             <div id="templatemo_content">
 
-                <!--                <div id="content_left">
-                                    <div class="content_left_section">
-                                        <div class="content_header_01">Our news</div>
-                                        <div class="news_section">
-                                            <div class="news_date">JAN 20, 2016</div>
-                                            <div class="news_title">Funds Collection</div>
-                                            <p>Sed sit amet pretium metus. Nullam bibendum pharetra luctus. Aliquam erat volutpat. Praesent sit amet elementum est. <a href="#">Read more</a></p>
-                                        </div>
-                
-                                        <div class="margin_bottom_30"></div>
-                
-                                        <div class="news_section">
-                                            <div class="news_date">JAN 19, 2016</div>
-                                            <div class="news_title">Books Distribution</div>
-                                            <p>Suspendisse dignissim est nec tortor posuere vitae dictum dolor sagittis. Vestibulum at libero velit. Maecenas faucibus ornare erat sed sodales. <a href="#">Read more</a></p>
-                                        </div>
-                
-                                        <div class="margin_bottom_20"></div>
-                                        <div class="rc_btn_02"><a href="#">View All</a></div> 
-                                        <div class="cleaner"></div>
-                
-                                    </div>  
-                
-                                    <div class="margin_bottom_20 border_bottom"></div>
-                                    <div class="margin_bottom_20"></div>
-                
-                                    <div class="content_left_section">
-                                        <div class="content_header_01">Newsletter</div>
-                                        <p>Please enter your email address to subscribe our newsletter</p>
-                                        <form action="#" method="get">
-                                            <input type="text" id="search_field" />
-                                            <input type="submit" value="Subscribe" id="subscribe_button" />
-                                        </form>
-                                        <div class="cleaner"></div>
-                                    </div>
-                
-                                    <div class="margin_bottom_20 border_bottom"></div>
-                                    <div class="margin_bottom_20"></div>
-                
-                                    <div class="content_left_section">
-                                                                <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0" /></a>
-                                                                <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"  src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" vspace="8" border="0" /></a>
-                                    </div>
-                
-                                    <div class="cleaner_h30">&nbsp;</div>
-                                </div>  end of content left -->
-
-                <!--                <div id="content_right">-->
 
 
                 <center>

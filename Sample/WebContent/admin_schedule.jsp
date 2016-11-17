@@ -79,7 +79,7 @@
 
                                                 Connection con = com.DB.DBConnection.getCon();
 
-                                                PreparedStatement ps = con.prepareStatement("select service_id from service where status = 'Accepted'");
+                                                PreparedStatement ps = con.prepareStatement("select service_id from service where no_vol_req > '0'");
                                                 ResultSet rs = ps.executeQuery();
                                                 while (rs.next()) {
                                         %>

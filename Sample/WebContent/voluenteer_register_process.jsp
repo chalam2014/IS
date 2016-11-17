@@ -117,7 +117,7 @@
     String no_of_volu = request.getParameter("nvol");
     String address = request.getParameter("vaddr");
     String contact = request.getParameter("vcno");
-    String Status = "Null";
+    String Status = "Pending";
 
     try {
 

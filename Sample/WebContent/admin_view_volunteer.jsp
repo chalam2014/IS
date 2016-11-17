@@ -75,7 +75,7 @@
                             try {
 
                                 Connection con = com.DB.DBConnection.getCon();
-                                PreparedStatement ps = con.prepareStatement("select v_id,v_name,email,v_skil,v_type,n_volunteer,v_add,contact from volunteer where status = 'Null'");
+                                PreparedStatement ps = con.prepareStatement("select v_id,v_name,email,v_skil,v_type,n_volunteer,v_add,contact from volunteer where status = 'Pending'");
                                 ResultSet rs = ps.executeQuery();
 
                         %>

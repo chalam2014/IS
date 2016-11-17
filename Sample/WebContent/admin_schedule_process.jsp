@@ -72,7 +72,7 @@
                             String service_id = request.getParameter("sid");
 
                             Connection con1 = com.DB.DBConnection.getCon();
-                            String query = " select app_id,service_name,service_des,no_vol,app_service_add from service where service_id='" + service_id + "' ";
+                            String query = " select app_id,service_name,service_des,no_vol_req,app_service_add from service where service_id='" + service_id + "' ";
                             PreparedStatement ps1 = con1.prepareStatement(query);
                             ResultSet rs = ps1.executeQuery();
                             while (rs.next()) {

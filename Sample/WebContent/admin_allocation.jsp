@@ -112,8 +112,10 @@
         if (k == 1) {
             
             Connection con1 = com.DB.DBConnection.getCon();
-            
-            String qry1 = " update service set status='Allocated' where service_id='"+service_id+"' ";
+            int a = Integer.parseInt(req_volu);
+            int b = Integer.parseInt(no_volu);
+            int c = a-b;
+            String qry1 = " update service set status='Allocated',no_vol_req = '"+c+"' where service_id='"+service_id+"' ";
             String qry2 = " update volunteer set status='Allocated' where v_id='"+volu_id+"' ";
             
              PreparedStatement ps1 = con1.prepareStatement(qry1);

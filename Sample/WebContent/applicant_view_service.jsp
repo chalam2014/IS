@@ -72,7 +72,7 @@
                                  String appID =(String)session.getAttribute("sessionID");
 
                                 Connection con = com.DB.DBConnection.getCon();
-                                PreparedStatement ps = con.prepareStatement("select service_name,service_des,no_vol,app_service_add from service where app_id='" + appID + "'");
+                                PreparedStatement ps = con.prepareStatement("select service_name,service_des,no_vol,app_service_add,status from service where app_id='" + appID + "'");
                                 ResultSet rs = ps.executeQuery();
 
                         %>
@@ -91,6 +91,8 @@
                                     <td><h5>No.of Volunteers </h5></td>
 
                                     <td><h5>Address</h5></td>
+                                    
+                                    <td><h5>Status</h5></td>
 
                                     
                                 </tr>
@@ -103,6 +105,7 @@
                                     <td><%=rs.getString(2)%></td>
                                     <td><%=rs.getString(3)%></td>
                                     <td><%=rs.getString(4)%></td>
+                                    <td><%=rs.getString(5)%></td>
                                    
 
 

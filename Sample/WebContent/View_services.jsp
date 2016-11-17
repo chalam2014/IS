@@ -76,7 +76,7 @@
                             	
                             	String app_id = request.getParameter("app_id");
                                 Connection con = com.DB.DBConnection.getCon();
-                                PreparedStatement ps = con.prepareStatement("select * from service where app_id ='" + app_id + "' and status = 'Null' " );
+                                PreparedStatement ps = con.prepareStatement("select * from service where app_id ='" + app_id + "' and status = 'Pending' " );
                                 ResultSet rs = ps.executeQuery();
 
                         %>

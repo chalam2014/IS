@@ -65,14 +65,15 @@
     String service_name = request.getParameter("nserv");
     String service_desc = request.getParameter("desc");
     String vol_no = request.getParameter("nvol");
+    String req_vol_no = request.getParameter("nvol");
     String service_add = request.getParameter("addr");
-	String status = "Null";
+	String status = "Pending";
 
     try {
 
         Connection con = DBConnection.getCon();
 
-        String query = "insert into service values(?,?,?,?,?,?,?)";
+        String query = "insert into service values(?,?,?,?,?,?,?,?)";
 
         PreparedStatement ps = con.prepareStatement(query);
 
@@ -83,6 +84,7 @@
         ps.setString(5, vol_no);
         ps.setString(6, service_add);
         ps.setString(7, status);
+        ps.setString(8, req_vol_no);
 
         int k = ps.executeUpdate();
 %>
