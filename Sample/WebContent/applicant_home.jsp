@@ -131,7 +131,7 @@
 
                    
                         <center>
-                            <h1><font size = '7' color = '6495ED' >Welcome to : <%=name%></font> </h1>
+                            <h1><font size = '5' color = '6495ED' >Welcome to : <%=name%></font> </h1>
                            
 
                                         </center>

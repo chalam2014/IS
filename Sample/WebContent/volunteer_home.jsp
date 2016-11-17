@@ -132,7 +132,7 @@
 
 
                     <center>
-                        <h1><font size = '6' color = '6495ED' >Welcome to Volunteer : <%=name%></font> </h1>
+                        <h1><font size = '5' color = '6495ED' >Welcome to Volunteer : <%=name%></font> </h1>
 
 
                     </center>
