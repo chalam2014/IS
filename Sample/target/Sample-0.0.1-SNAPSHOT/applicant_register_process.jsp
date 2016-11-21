@@ -1,7 +1,5 @@
-   
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -29,8 +27,8 @@
                 <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
             </form>
         </div>    
-    </div> <!-- end of header -->
-</div>  <!-- end of header wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_banner_wrapper">
     <div id="templatemo_banner">
@@ -41,8 +39,8 @@
             <p>St. Thomas of Villanova was known for his great charity to the poor and marginalized. The Villanova community celebrates its patron saint and his legacy of Caritas - Love - with an annual Day of Service in his name.
  This annual event builds upon the great service performed throughout the year by the Villanova community and exists as a unique way to put its Augustinian ideals into action.</p>
         </div>
-    </div>	<!-- end of banner -->
-</div> <!-- end of banner wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_menu_wrapper">    
     <div id="templatemo_menu">
@@ -54,9 +52,8 @@
             <li><a href="About_us.jsp"><span></span>About Us</a></li>
             <li><a href="contact.html"><span></span>Contact</a></li>
         </ul>    	
-    </div> <!-- end of menu -->
-</div> <!-- end of menu wrapper -->
-
+    </div>
+</div>
 <div id="templatemo_content_wrapper">
 <div id="templatemo_content">
 
@@ -81,61 +78,46 @@
             <div class="rc_btn_02"><a href="#">View All</a></div> 
         <div class="cleaner"></div>
         
-        </div>   <!-- end of news section -->
+        </div>
         
         <div class="margin_bottom_20 border_bottom"></div>
         <div class="margin_bottom_20"></div>
         
         <div class="content_left_section">
             <div class="content_header_01">Admin Login</div>
-<!--            <p>Please enter your email address to subscribe our newsletter</p>-->
+
             <form action="admin_login_process.jsp" method="post">
                 Username : <input type="text" id="search_field" name="uname" />
                 Password : <input type="password" id="search_field" name="pwd" />
                 <input type="submit" value="Submit" id="subscribe_button" />
             </form>
             <div class="cleaner"></div>
-        </div>
-        
+        </div>       
         <div class="margin_bottom_20 border_bottom"></div>
         <div class="margin_bottom_20"></div>
-        
-    
         <div class="cleaner_h30">&nbsp;</div>
-    </div> <!-- end of content left -->
-
+    </div>
     <div id="content_right">
-
 <%
-
     String applicant_id = request.getParameter("aid");
     String applicant_name = request.getParameter("aname");
     String email = request.getParameter("email");
     String password = request.getParameter("pwd");
     String address = request.getParameter("addr");
     String contact = request.getParameter("cno");
-
     try {
-
         Connection con = DBConnection.getCon();
-
         String query = "insert into applicant values(?,?,?,?,?,?)";
-
         PreparedStatement ps = con.prepareStatement(query);
-
         ps.setString(1, applicant_id);
         ps.setString(2, applicant_name);
         ps.setString(3, email);
         ps.setString(4, password);
         ps.setString(5, address);
         ps.setString(6, contact);
-
         int k = ps.executeUpdate();
-
 %>
-
 <h3>
-
     <%                                if (k == 1) {
     	 out.println("<script type=\"text/javascript\">");
          out.println("alert('Applicant Registration Successfully Completed');");
@@ -145,28 +127,17 @@
         }
     %>
 </h3>
-
 <br>
 <br>
 <font size = '4' color = 'black'>
 To Login</font>
 <font size = '4' color = '#0000FF' ><a href="applicant_login.jsp"><u>Click Here</u></a></font>
-
-
 <%
     } catch (Exception e) {
         e.printStackTrace();
     }
-
 %>
-</div> <!-- end of content -->
-</div> <!-- end of content wrapper -->
-<div id="templatemo_footer_wrapper">        
-                                            <div id="templatemo_footer">
-                                                 
-                                                
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
-
+</div>
+</div>
                                         </body>
                                         </html>

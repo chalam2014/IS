@@ -1,9 +1,5 @@
-
-
- 
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
-
 <%
 
                         Connection con = com.DB.DBConnection.getCon();
@@ -13,7 +9,6 @@
                         String password = request.getParameter("pwd");
                         
                         session.setAttribute("volunteerID", volu_id);
-                        
                         
                        try {
 

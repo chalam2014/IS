@@ -9,9 +9,6 @@
         <meta name="keywords" content="Professional Template, HTML, CSS, free website template" />
         <meta name="description" content="Professional Template, HTML, CSS, free website template provided by templatemo.com" />
         <link href="style.css" rel="stylesheet" type="text/css" />
-
-
-
     </head>
     <body>
         <div id="templatemo_header_wrapper">
@@ -24,16 +21,14 @@
                         Easy Service</div>
                     <div class="cleaner">&nbsp;</div>
                 </div>
-
                 <div id="search_section">
                     <form action="#" method="get">
                         <input type="text" name="q" size="10" id="searchfield" title="searchfield" />
                         <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
                     </form>
                 </div>    
-            </div> <!-- end of header -->
-        </div>  <!-- end of header wrapper -->
-
+            </div>
+        </div>
         <div id="templatemo_banner_wrapper">
             <div id="templatemo_banner">
 
@@ -41,10 +36,9 @@
                 <div id="banner_header_02">Easy Service Day of Villanova</div>
                 <div id="banner_text">
                     <p>It is a community with the experience, skills and knowledge to help poor people, no matter how large or how small, fulfill its ultimate potential. We can help fledgling events get off the ground and existing events soar. We're flexible, fast, responsive and reliable. And we always bring a fresh perspective. No matter what stage of the planning you?re in, we?d welcome the opportunity to help you make your event the best it can be.</p>
-                    <!--            <div class="rc_btn_01"><a href="#">Continue reading...</a></div>-->
-                </div>
-            </div>	<!-- end of banner -->
-        </div> <!-- end of banner wrapper -->
+                    </div>
+            </div>
+        </div>
 
         <div id="templatemo_menu_wrapper">    
             <div id="templatemo_menu">

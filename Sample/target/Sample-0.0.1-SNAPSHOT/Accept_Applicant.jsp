@@ -1,4 +1,3 @@
- 
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -28,8 +27,8 @@
                 <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
             </form>
         </div>    
-    </div> <!-- end of header -->
-</div>  <!-- end of header wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_banner_wrapper">
     <div id="templatemo_banner">
@@ -40,8 +39,8 @@
             <p>St. Thomas of Villanova was known for his great charity to the poor and marginalized. The Villanova community celebrates its patron saint and his legacy of Caritas - Love - with an annual Day of Service in his name.
  This annual event builds upon the great service performed throughout the year by the Villanova community and exists as a unique way to put its Augustinian ideals into action.</p>
         </div>
-    </div>	<!-- end of banner -->
-</div> <!-- end of banner wrapper -->
+    </div>
+</div>
 
         <div id="templatemo_menu_wrapper">    
             <div id="templatemo_menu">
@@ -54,8 +53,8 @@
                     <li><a href="admin_schedule.jsp"><span></span>Schedule</a></li>
                     <li><a href="index.html"><span></span>Logout</a></li>
                 </ul>       	
-            </div> <!-- end of menu -->
-        </div> <!-- end of menu wrapper -->
+            </div>
+        </div>
 
         <div id="templatemo_content_wrapper">
             <div id="templatemo_content">
@@ -93,7 +92,7 @@
                     <font size = '4' color = 'black'>
 Applicant Service has been accepted and updated the status</font></center>
                     
-                    <br>
+                    <br></br>
 
 
                         <%
@@ -104,14 +103,7 @@ Applicant Service has been accepted and updated the status</font></center>
                             }
 
                         %>
-   </div> <!-- end of content -->
-</div> <!-- end of content wrapper -->
-<div id="templatemo_footer_wrapper">        
-                                            <div id="templatemo_footer">
-                                                 
-                                                
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
-
+   </div> 
+</div>
                                         </body>
                                         </html>

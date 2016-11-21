@@ -25,8 +25,8 @@
                 <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
             </form>
         </div>    
-    </div> <!-- end of header -->
-</div>  <!-- end of header wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_banner_wrapper">
     <div id="templatemo_banner">
@@ -37,8 +37,8 @@
             <p>St. Thomas of Villanova was known for his great charity to the poor and marginalized. The Villanova community celebrates its patron saint and his legacy of Caritas - Love - with an annual Day of Service in his name.
  This annual event builds upon the great service performed throughout the year by the Villanova community and exists as a unique way to put its Augustinian ideals into action.</p>
         </div>
-    </div>	<!-- end of banner -->
-</div> <!-- end of banner wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_menu_wrapper">    
     <div id="templatemo_menu">
@@ -50,8 +50,8 @@
             <li><a href="About_us.jsp"><span></span>About Us</a></li>
             <li><a href="contact.html"><span></span>Contact</a></li>
         </ul>    	
-    </div> <!-- end of menu -->
-</div> <!-- end of menu wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_content_wrapper">
 <div id="templatemo_content">
@@ -77,7 +77,7 @@
             <div class="rc_btn_02"><a href="#">View All</a></div> 
         <div class="cleaner"></div>
         
-        </div>   <!-- end of news section -->
+        </div>
         
         <div class="margin_bottom_20 border_bottom"></div>
         <div class="margin_bottom_20"></div>
@@ -92,25 +92,17 @@
             </form>
             <div class="cleaner"></div>
         </div>
-        
         <div class="margin_bottom_20 border_bottom"></div>
         <div class="margin_bottom_20"></div>
-        
-    
         <div class="cleaner_h30">&nbsp;</div>
-    </div> <!-- end of content left -->
-
+    </div>
     <div id="content_right">
-
-
-
-
                     <form action="applicant_login_process.jsp" method="post" id="alform">
                         <center>
                             <h2>Applicant Login</h2>
                             <br><br><br>
                                         <table>
-                                            
+                                           
                                             <tr>
                                                 <td align="right">Applicant ID : </td><td> <input type="text" align="left" name="aid"/></td>
                                             </tr>
@@ -120,8 +112,6 @@
                                                 <td align="right">Password : </td><td> <input type="password" align="left" name="pwd"/></td>
                                             </tr>
                                             <tr></tr> <tr></tr> <tr></tr>
-
-                                            
                                             <tr>
                                                 <td>
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button type="submit" form="alform" value='Login'>Login</button>
@@ -129,32 +119,17 @@
                                                     <input type="reset" value='Reset'  />
                                                 </td>
                                             </tr>
-
-
                                         </table>
                                         <br>
-                                            
-                                            
                                          <font size = '4' >       New User ?<a href="applicant_register.jsp"><u>Register Here</u></a>   </font>
                                         </center>
-
                                         </form>       
-
                                         <div class="cleaner">&nbsp;</div>
                                         </div>                    
                                         <div class="cleaner_h20">&nbsp;</div>
-                                        </div> <!-- end of content right -->
-
+                                        </div>
                                         <div class="cleaner">&nbsp;</div>
-
-</div> <!-- end of content -->
-</div> <!-- end of content wrapper -->
-<div id="templatemo_footer_wrapper">        
-                                            <div id="templatemo_footer">
-                                                 
-                                                
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
-
+</div>
+</div>
                                         </body>
                                         </html>

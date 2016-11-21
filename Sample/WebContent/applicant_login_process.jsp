@@ -1,9 +1,6 @@
- 
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
-
 <%
-
                         Connection con = com.DB.DBConnection.getCon();
 
                         String app_id = request.getParameter("aid");

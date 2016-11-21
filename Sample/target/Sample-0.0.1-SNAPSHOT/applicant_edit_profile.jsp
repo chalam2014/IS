@@ -1,9 +1,5 @@
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
-
-
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -31,21 +27,17 @@
                         <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
                     </form>
                 </div>    
-            </div> <!-- end of header -->
-        </div>  <!-- end of header wrapper -->
-
+            </div>
+        </div>
         <div id="templatemo_banner_wrapper">
             <div id="templatemo_banner">
-
                 <div id="banner_header_01">St. THOMAS EVENTS</div>
                 <div id="banner_header_02">Easy Service Day of Villanova</div>
                 <div id="banner_text">
                     <p>It is a community with the experience, skills and knowledge to help poor people, no matter how large or how small, fulfill its ultimate potential. We can help fledgling events get off the ground and existing events soar. We're flexible, fast, responsive and reliable. And we always bring a fresh perspective. No matter what stage of the planning you?re in, we?d welcome the opportunity to help you make your event the best it can be.</p>
-                    <!--            <div class="rc_btn_01"><a href="#">Continue reading...</a></div>-->
                 </div>
-            </div>	<!-- end of banner -->
-        </div> <!-- end of banner wrapper -->
-
+            </div>
+        </div>
         <div id="templatemo_menu_wrapper">    
             <div id="templatemo_menu">
                 <ul>
@@ -56,12 +48,10 @@
                     <li><a href="applicant_view_service.jsp"><span></span>View Service</a></li>
                     <li><a href="applicant_login.jsp"><span></span>Logout</a></li>
                 </ul>    	
-            </div> <!-- end of menu -->
-        </div> <!-- end of menu wrapper -->
-
+            </div>
+        </div>
         <div id="templatemo_content_wrapper">
             <div id="templatemo_content">
-
                 <div id="content_left">
                     <div class="content_left_section">
                         <div class="content_header_01">Our news</div>
@@ -70,24 +60,18 @@
                             <div class="news_title">Funds Collection</div>
                             <p>Sed sit amet pretium metus. Nullam bibendum pharetra luctus. Aliquam erat volutpat. Praesent sit amet elementum est. <a href="#">Read more</a></p>
                         </div>
-
                         <div class="margin_bottom_30"></div>
-
                         <div class="news_section">
                             <div class="news_date">JAN 19, 2016</div>
                             <div class="news_title">Books Distribution</div>
                             <p>Suspendisse dignissim est nec tortor posuere vitae dictum dolor sagittis. Vestibulum at libero velit. Maecenas faucibus ornare erat sed sodales. <a href="#">Read more</a></p>
                         </div>
-
                         <div class="margin_bottom_20"></div>
                         <div class="rc_btn_02"><a href="#">View All</a></div> 
                         <div class="cleaner"></div>
-
                     </div>  
-
                     <div class="margin_bottom_20 border_bottom"></div>
                     <div class="margin_bottom_20"></div>
-
                     <div class="content_left_section">
                         <div class="content_header_01">Newsletter</div>
                         <p>Please enter your email address to subscribe our newsletter</p>
@@ -97,32 +81,20 @@
                         </form>
                         <div class="cleaner"></div>
                     </div>
-
                     <div class="margin_bottom_20 border_bottom"></div>
                     <div class="margin_bottom_20"></div>
-
                     <div class="content_left_section">
-                        <!--                        <a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px" src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0" /></a>
-                                                <a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"  src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" vspace="8" border="0" /></a>-->
                     </div>
-
                     <div class="cleaner_h30">&nbsp;</div>
-                </div> <!-- end of content left -->
-
+                </div>
                 <div id="content_right">
-
                     <%
                         try {
-
                             String appID = (String) session.getAttribute("sessionID");
                             Connection con = DBConnection.getCon();
-
                             String query = "select app_name,email,pwd,address,contact from applicant where app_id= '" + appID + "'";
-
                             PreparedStatement ps = con.prepareStatement(query);
-
                             ResultSet rs = ps.executeQuery(query);
-
                             while (rs.next()) {
                     %>
 
@@ -133,31 +105,24 @@
                                         <table>
 
                                             <td align="right">Applicant/Organization Name:</td><td> <input type="text" align="left" value="<%= rs.getString(1)%>" name="aname"/></td>
-
                                             <tr></tr> <tr></tr> <tr></tr>
                                             <tr>
                                                 <td align="right">Email : </td><td> <input type="text" align="left" value="<%= rs.getString(2)%>" name="email"/></td>
                                             </tr>
                                             <tr></tr> <tr></tr> <tr></tr>
-
                                             <tr>
                                                 <td align="right">Password : </td><td> <input type="password" align="left" value="<%= rs.getString(3)%>" name="pwd"/></td>
                                             </tr>
                                             <tr></tr> <tr></tr> <tr></tr>
-
-
                                             <tr>
                                                 <td align="right">Address : </td>
-
                                                 <td> <textarea rows="5" cols="50" align="left" value="<%= rs.getString(4)%>" name="addr"></textarea></td>
                                             </tr>
                                             <tr></tr> <tr></tr> <tr></tr>
-
                                             <tr>
                                                 <td align="right">Contact No : </td><td> <input type="text" align="left" value="<%= rs.getString(5)%>" name="cno"/></td>
                                             </tr>
                                             <tr></tr> <tr></tr> <tr></tr>
-
                                             <tr>
                                                 <td>
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button type="submit" form="arform" value='Register'>Update</button>
@@ -165,40 +130,21 @@
                                                     <input type="submit" value='Reset'  />
                                                 </td>
                                             </tr>
-
-
                                         </table>
-
                                         </center>
-
                                         </form> 
-
-
                                         <%
                                                 }
-
                                             } catch (Exception e) {
                                                 e.printStackTrace();
                                             }
-
                                         %>
-
-
                                         <div class="cleaner">&nbsp;</div>
                                         </div>                    
                                         <div class="cleaner_h20">&nbsp;</div>
-                                        </div> <!-- end of content right -->
-
+                                        </div>
                                         <div class="cleaner">&nbsp;</div>
-
-                                        </div> <!-- end of content -->
-                                        </div> <!-- end of content wrapper -->
-
-                                        <div id="templatemo_footer_wrapper">        
-                                            <div id="templatemo_footer">
-                                                Copyright © 2016 <a href="index.html">University of St. Thomas, Minnesota</a> | 
-
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
-                                        </body>
+                                        </div>
+                                        </div>
+                                       </body>
                                         </html>

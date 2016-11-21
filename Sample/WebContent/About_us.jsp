@@ -25,8 +25,8 @@
                 <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
             </form>
         </div>    
-    </div> <!-- end of header -->
-</div>  <!-- end of header wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_banner_wrapper">
     <div id="templatemo_banner">
@@ -38,8 +38,8 @@
  This annual event builds upon the great service performed throughout the year by the Villanova community and exists as a unique way to put its Augustinian ideals into action.</p>
 <!--            <div class="rc_btn_01"><a href="#">Continue reading...</a></div>-->
         </div>
-    </div>	<!-- end of banner -->
-</div> <!-- end of banner wrapper -->
+    </div>
+</div>
 
         <div id="templatemo_menu_wrapper">    
             <div id="templatemo_menu">
@@ -51,8 +51,8 @@
                     <li><a href="About_us.jsp"><span></span>About Us</a></li>
                     <li><a href="contact.html"><span></span>Contact</a></li>
                 </ul>    	
-            </div> <!-- end of menu -->
-        </div> <!-- end of menu wrapper -->
+            </div>
+        </div>
 
         <div id="templatemo_content_wrapper">
             <div id="templatemo_content">
@@ -103,12 +103,6 @@
                 </div> <!-- end of content left -->
 
                 <div id="content_right">
-
-
-
-
-
-
                     <div class="content_header_02">About St. Thomas of Villanova</div>
                     <div class="news_title">
                         <p style="font-size:100%;">
@@ -137,14 +131,14 @@ I am delighted that the Day of Service has become such a powerful demonstration 
 
                                         <div class="cleaner">&nbsp;</div>
 
-                                        </div> <!-- end of content -->
-                                        </div> <!-- end of content wrapper -->
+                                        </div>
+                                        </div>
 
                                         <div id="templatemo_footer_wrapper">        
                                             <div id="templatemo_footer">
                                                  
                                                 
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
+                                            </div>
+                                        </div>
                                         </body>
                                         </html>

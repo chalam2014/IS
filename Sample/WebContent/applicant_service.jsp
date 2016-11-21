@@ -1,7 +1,6 @@
 <%@page import="java.sql.*" %>
 <%@page import="com.DB.DBConnection" %>
 <%@page import="java.sql.DriverManager"%>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -29,8 +28,8 @@
                 <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
             </form>
         </div>    
-    </div> <!-- end of header -->
-</div>  <!-- end of header wrapper -->
+    </div>
+</div>
 
 <div id="templatemo_banner_wrapper">
     <div id="templatemo_banner">
@@ -41,8 +40,8 @@
             <p>St. Thomas of Villanova was known for his great charity to the poor and marginalized. The Villanova community celebrates its patron saint and his legacy of Caritas - Love - with an annual Day of Service in his name.
  This annual event builds upon the great service performed throughout the year by the Villanova community and exists as a unique way to put its Augustinian ideals into action.</p>
         </div>
-    </div>	<!-- end of banner -->
-</div> <!-- end of banner wrapper -->
+    </div>
+</div>
 
         <div id="templatemo_menu_wrapper">    
             <div id="templatemo_menu">
@@ -50,18 +49,14 @@
                     <li><a href="applicant_home.jsp" class="current"><span></span>Home</a></li>
                     <li><a href="applicant_service.jsp" target="_parent"><span></span>New Service</a></li>
                     <li><a href="applicant_view_allocation.jsp"><span></span>Allocation</a></li>
-<!--                    <li><a href="applicant_edit_profile.jsp"><span></span>Profile</a></li>-->
                     <li><a href="applicant_view_service.jsp"><span></span>View Service</a></li>
                     <li><a href="applicant_login.jsp"><span></span>Logout</a></li>
                 </ul>    	
-            </div> <!-- end of menu -->
-        </div> <!-- end of menu wrapper -->
+            </div>
+        </div>
 
         <div id="templatemo_content_wrapper">
             <div id="templatemo_content">
-
-
-
                 <center>
                 <%
                         int maxID = 0;
@@ -115,10 +110,6 @@
                                             <td> <textarea rows="5" cols="50" align="left" name="addr"> </textarea></td>
                                         </tr>
                                         <tr></tr> <tr></tr> <tr></tr>
-
-
-
-
                                         <tr>
                                             <td>
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button type="submit" id="asform" value='Register' >Register</button>
@@ -127,30 +118,16 @@
                                                 <input type="reset" value='Reset'  />
                                             </td>
                                         </tr>
-
-
                                     </table>
-
-
-
                                     </form>   
                                     <br> <br> <br> 
                                                 </center>
                                                 <div class="cleaner">&nbsp;</div>
                                                 </div>                    
                                                 <div class="cleaner_h20">&nbsp;</div>
-                                                </div> <!-- end of content right -->
-
+                                                </div>
                                                 <div class="cleaner">&nbsp;</div>
-
-    </div> <!-- end of content -->
-</div> <!-- end of content wrapper -->
-<div id="templatemo_footer_wrapper">        
-                                            <div id="templatemo_footer">
-                                                 
-                                                
-                                            </div><!-- end of footer -->
-                                        </div><!-- end of footer wrapper -->
-
+    </div>
+</div>
                                         </body>
                                         </html>

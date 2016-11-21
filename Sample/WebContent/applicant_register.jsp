@@ -188,7 +188,7 @@
                                         <br>
 
 
-                                             <font size = '4'>   Already Register <a href="applicant_login.jsp"><u>Login Here</u></a></font>
+                                             <font size = '4'>   Already Registered ? <a href="applicant_login.jsp"><u>Login Here</u></a></font>
 
                                                 </center>
 
